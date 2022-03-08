@@ -1,0 +1,26 @@
+.hover {
+  font-size: 20px;
+  transition: 1s;
+}
+.hover:hover {
+  color: #ff0062;
+  cursor: pointer;
+}
+.text-color {
+  padding: 40px 0;
+}
+.control {
+  padding: 15px;
+}
+.control-2 {
+  padding: 15px;
+  font-weight: bold;
+}
+.control-2:hover {
+  color: white;
+  background-color: black;
+}
+.font {
+  color: #ff0062;
+  font-weight: bold;
+}

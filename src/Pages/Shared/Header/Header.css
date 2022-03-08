@@ -1,0 +1,15 @@
+.link {
+  text-decoration: none;
+  padding: 10px;
+  color: gray;
+}
+.hi {
+  color: gray;
+  margin: 0 10px 0 10px;
+}
+.user-photo {
+  margin-left: 10px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}

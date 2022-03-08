@@ -8,28 +8,40 @@ export default function Banner() {
     <>
             <Carousel>
                 <Carousel.Item>
-                    <Row>
-                        <Col className='carousel-1'>
-                        
-                        </Col>
-                        
-                    </Row>
+                    <div className='carousel-1'>
+                        <Row >
+                            <Col>
+                            
+                            </Col>
+                            <Col>
+                            
+                            </Col>
+                        </Row>
+                    </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Row>
-                        <Col className='carousel-2'>
-                        
-                        </Col>
-                        
-                    </Row>
+                    <div className='carousel-2'>
+                        <Row>
+                            <Col>
+                            
+                            </Col>
+                            <Col>
+                            
+                            </Col>
+                        </Row>
+                    </div>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Row>
-                        <Col className='carousel-3'>
-                        
-                        </Col>
-                        
-                    </Row>
+                    <div  className='carousel-3'>
+                        <Row>
+                            <Col>
+                            
+                            </Col>
+                            <Col>
+                            
+                            </Col>
+                        </Row>
+                    </div>
                 </Carousel.Item> 
             </Carousel>
         </>
