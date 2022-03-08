@@ -1,6 +1,6 @@
 .hover {
   font-size: 20px;
-  transition: 1s;
+  transition: 0.5s;
 }
 .hover:hover {
   color: #ff0062;
@@ -18,7 +18,7 @@
 }
 .control-2:hover {
   color: white;
-  background-color: black;
+  background-color: #ff0062;
 }
 .font {
   color: #ff0062;
