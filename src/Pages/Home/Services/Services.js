@@ -10,7 +10,7 @@ export default function Services() {
         .then(data => setServices(data));
     } ,[])
   return (
-    <div className="service-container mt-5">
+    <div className="container service-container mt-5">
         {
             services.map(service => <Service
                 service={service}

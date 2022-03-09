@@ -1,7 +1,15 @@
 .link {
   text-decoration: none;
   padding: 10px;
-  color: gray;
+  color: white;
+}
+.link:hover {
+  color: #ff0062;
+}
+.link2 {
+  text-decoration: none;
+  padding: 10px;
+  color: #ff0062;
 }
 .hi {
   color: gray;

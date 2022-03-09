@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Navbar } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 export default function Header() {
@@ -13,8 +14,8 @@ export default function Header() {
                     <Navbar.Brand to="/home"><img src="https://i.ibb.co/kDCjXwD/logo2.png" alt="" /></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        {/* <Link className="link" to="/home">Home</Link>
-                        <Link className="link" to="/services">Services</Link> */}
+                        <Link className="link" to="/home">Home</Link>
+                        <Link className="link2" to="/services">Services</Link>
                 
                         {/* <Navbar.Text>
                             <span className="hi">Hello</span> <a href="#login" style={{textDecoration: 'none', color: 'gray'}}>{user?.displayName}</a>

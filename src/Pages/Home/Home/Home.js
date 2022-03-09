@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Banner from '../../Banner/Banner'
+import Reviews from '../Reviews/Reviews'
 import Service from '../Service/Service'
 import './Home.css'
 
@@ -52,7 +53,7 @@ export default function Home() {
                 </div>
             </div>
             <div>
-                {/* <Reviews></Reviews> */}
+                <Reviews></Reviews>
             </div>
         </div>
     </div>
