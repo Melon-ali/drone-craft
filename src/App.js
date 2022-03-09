@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Banner from './Pages/Banner/Banner';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
+import Home from './Pages/Home/Home/Home';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Banner></Banner>
+      <Home></Home>
       <Footer></Footer>
     </div>
   );
