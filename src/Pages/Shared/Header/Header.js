@@ -1,12 +1,13 @@
 import React from 'react'
-import { Container, Navbar } from 'react-bootstrap'
+import { Button, Container, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import useAuth from '../../../hooks/useAuth';
 import './Header.css'
 
 export default function Header() {
-    // const loginImg = "https://i.ibb.co/0jz6gHX/avatar.png";
+    const loginImg = "https://i.ibb.co/0jz6gHX/avatar.png";
 
-    // const {user, logOut} = useAuth();
+    const {user, logOut} = useAuth();
   return (
     <>
             <Navbar bg="dark"  sticky="top" collapseOnSelect expand="lg">
@@ -17,19 +18,19 @@ export default function Header() {
                         <Link className="link" to="/home">Home</Link>
                         <Link className="link2" to="/services">Services</Link>
                 
-                        {/* <Navbar.Text>
+                        <Navbar.Text>
                             <span className="hi">Hello</span> <a href="#login" style={{textDecoration: 'none', color: 'gray'}}>{user?.displayName}</a>
-                        </Navbar.Text> */}
-                        {/* <h1>
+                        </Navbar.Text>
+                        <h1>
                             {user?.email && <img className="user-photo" src={user?.photoURL || loginImg} alt="" />}
-                        </h1> */}
-                        {/* {user?.email &&
+                        </h1>
+                        {user?.email &&
                             <Link className="link" to="/dashboard">Dashboard</Link>
                         }
                         {user?.email ?
-                            <Button onClick={logOut} variant="light">Logout</Button>:
-                            <Link className="link" to="/login">Login</Link>
-                        } */}
+                            <Button className="link2" onClick={logOut} variant="light">Logout</Button>:
+                            <Link className="link2" to="/login">Login</Link>
+                        }
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
