@@ -7,7 +7,7 @@ import './Home.css'
 export default function Home() {
     const [home, setHome] = useState([])
     useEffect(()=> {
-        fetch('http://localhost:5000/products')
+        fetch('https://tranquil-cliffs-84730.herokuapp.com/products')
         .then(res => res.json())
         .then(data => setHome(data.slice(0, 6)));
     } ,[])

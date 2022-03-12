@@ -60,7 +60,7 @@ export default function useFirebase() {
     }
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/user/${user.email}`)
+        fetch(`https://tranquil-cliffs-84730.herokuapp.com/user/${user.email}`)
         .then(res=>res.json())
         .then(data=>{
           setAdmin(data.admin)

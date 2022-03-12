@@ -19,7 +19,7 @@ export default function Details() {
     const onSubmit = (data) => {
         data.email = user?.email;
         data.status = "pending";
-        fetch("http://localhost:5000/orders", {
+        fetch("https://tranquil-cliffs-84730.herokuapp.com/orders", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(data),
@@ -30,7 +30,7 @@ export default function Details() {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://tranquil-cliffs-84730.herokuapp.com/products/${id}`)
         .then(res=> res.json())
         .then(data => setServices(data));
     }, [id]);

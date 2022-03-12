@@ -11,7 +11,7 @@ export default function Banner() {
                     <div className='carousel-1'>
                         <Row >
                             <Col>
-                            
+                                
                             </Col>
                             <Col>
                             

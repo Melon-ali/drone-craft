@@ -6,9 +6,9 @@ import Services from './Pages/Home/Services/Services';
 import Login from './Pages/Login/Login/Login';
 import AuthProvider from './context/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
-import Dashboard from './Pages/Dashboard/Dashboard';
 import Register from './Pages/Login/Register/Register';
 import Details from './Pages/Home/Details/Details';
+import Dashboard from './Pages/Dashboard/Dashboard';
 
 function App() {
   return (
